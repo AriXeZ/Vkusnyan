@@ -100,17 +100,25 @@ div.cart {
 	color: #755a0b
 }
 
+.cart .cart-message {
+	color: #8f6f05!important;
+}
 .bootstrap-widget .popover.bottom {
     top: 80px!important;
     left: initial!important;
-    right: 100px!important;
+    right: 110px!important;
     position: fixed;
     background-color: #D2AA2E;
     border-color: #fff36b;
 }
-.cart-item-name {
+.cart {
+    width: auto!important; 
+}
+.cart .cart-item-name {
+	float: none!important;
 	color: #8f6f05;	
-	width: 130px!important;
+	width: auto!important;
+	line-height: normal!important;
 }
 .cart-item-price {
 	color: #755a0b!important
@@ -560,7 +568,7 @@ border-color: #FFF997!important;
 	color: #8f6f05;
 	height: 340px;
 	width: 216px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	margin-right: 28px;
 }
 #shop ul.items li span {
@@ -582,7 +590,7 @@ border-color: #FFF997!important;
 	font-size: 17px;
 	height: 20px;
 	line-height: 20px;
-	width: 60px;
+	width: 50px;
 	margin: 0;
 	padding: 0;
 	text-align: right;
