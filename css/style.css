@@ -35,7 +35,11 @@ img {
 
 
 .cart-button {
-	background: url(../images/bg-button2.jpg) no-repeat!important;
+    background-color: #D2AA2E;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff36b;
+    border-radius: 30px;
 	color: #8e7217!important;
 	display: block!important;
 	font-family: 'Times New Roman', Times, serif;
@@ -45,6 +49,7 @@ img {
 	padding: 8px 0 15px!important;
 	text-align: center!important;
 	text-decoration: none!important;
+	z-index: 100;
 }
 
 .cart-buttons{
@@ -76,7 +81,9 @@ div.cart {
 	position: fixed;
 	top: 20;
 	right: 0;
-	width: 300px
+	width: 300px;
+	z-index: 100;
+	border-color: #fff36b!important;
 }
 
 #header2 {
@@ -98,7 +105,7 @@ div.cart {
     left: initial!important;
     right: 100px!important;
     position: fixed;
-    background-color: transparent;
+    background-color: #D2AA2E;
     border-color: #fff36b;
 }
 .cart-item-name {
