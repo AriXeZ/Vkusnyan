@@ -3,9 +3,8 @@ html {
 	font-family: 'Trebuchet MS', sans-serif, Arial, Helvitica;
 }
 body {
-	background-color: #fff996;
+	background: url(../images/bg-body.jpg) repeat;
 	margin: 0;
-	padding-top: 19px;
 }
 #background {
 	background: url(../images/bg-body.jpg) repeat;
@@ -44,11 +43,13 @@ img {
 	display: block!important;
 	font-family: 'Times New Roman', Times, serif;
 	height: 60px!important;
+	line-height: 25px!important;
 	width: 154px!important;
-	padding: 8px 0 15px!important;
+	padding: 13px 0 13px!important;
 	text-align: center!important;
 	text-decoration: none!important;
 	z-index: 100;
+	box-shadow: 0 0 15px 1px #715703;
 }
 
 .cart-buttons{
@@ -78,7 +79,7 @@ div.cart {
 
 #page2 {
 	position: fixed;
-	top: 20;
+	top: 30;
 	right: 0;
 	width: 300px;
 	z-index: 100;
@@ -100,7 +101,7 @@ div.cart {
 }
 
 .bootstrap-widget .popover.bottom {
-    top: 95px!important;
+    top: 80px!important;
     left: initial!important;
     right: 100px!important;
     position: fixed;
@@ -108,7 +109,8 @@ div.cart {
     border-color: #fff36b;
 }
 .cart-item-name {
-	color: #8f6f05	
+	color: #8f6f05;	
+	width: 130px!important;
 }
 .cart-item-price {
 	color: #755a0b!important
