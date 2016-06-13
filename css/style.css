@@ -24,6 +24,12 @@ body {
 	font-weight: normal;
 	font-style: normal;
 }
+@font-face {
+	font-family: 'Minecraft Rus Regular';
+	src: local('?'), url('fonts/Minecraft_Rus_Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
 img {
 	border: 0;
 }
@@ -161,7 +167,7 @@ border-color: #FFF997!important;
 	float: left;
 	display: inline-block;
 	height: 30px;
-	width: 500px;
+	width: 650px;
 	margin: 0px 0 15px 10px;
 	color: #755a0b
 }
@@ -220,10 +226,10 @@ border-color: #FFF997!important;
 }
 #navigation li {
 	float: left;
-	font-family: 'CorbenBold';
+	font-family: 'Minecraft Rus Regular';
 	font-size: 22px;
 	font-weight: bold;
-	line-height: 40px;
+	line-height: 66px;
 	width: 186px;
 	text-align: center;
 }
@@ -249,29 +255,31 @@ border-color: #FFF997!important;
 }
 #main p {
 	color: #755a0b;
-	font-size: 14px;
+	font-size: 23px;
 	line-height: 20px;
 	margin: 0;
 	padding: 0 0 20px;
+	text-align: center;
 }
 #main p a {
 	color: #755a0b;
 }
 #main address {
-	color: #ffffff;
+	color: #755a0b;
 	font-style: normal;
-	width: 350px;
+	width: 450px;
 	margin: 0 auto;
 	text-align: center;
 }
 #main address span {
 	color: #9d7912;
 	display: block;
-	font-family: 'CorbenBold';
+	font-family: 'Minecraft Rus Regular';
 	font-size: 18px;
 	line-height: 20px;
 	margin: 20px 0;
-	width: 350px;
+	width: 450px;
+	font-weight: bold;
 }
 
 #adbox {
@@ -289,8 +297,8 @@ border-color: #FFF997!important;
 }
 
 #featured {
-	background: url(../images/border-dashed.jpg) repeat-x left bottom;
-	padding: 0 0 42px;
+	background: repeat-x left bottom;
+	padding: 0 0 32px;
 	position: relative;
 }
 #featured ul {
@@ -317,8 +325,8 @@ border-color: #FFF997!important;
 	background: url(../images/bg-button.jpg) no-repeat;
 	color: #8e7217;
 	display: block;
-	font-family: 'CorbenBold';
-	font-size: 18px;
+	font-family: 'Minecraft Rus Regular';
+	font-size: 13px;
 	height: 30px;
 	line-height: 30px;
 	width: 144px;
@@ -328,6 +336,7 @@ border-color: #FFF997!important;
 	position: absolute;
 	bottom: -20px;
 	left: 403px;
+	font-weight: bold;
 }
 
 /*------------------------------ Blog Page ------------------------------*/
@@ -435,10 +444,10 @@ border-color: #FFF997!important;
 }
 #info span {
 	float: left;
-	background: #ffffff url(../images/bottom-shadow-img.jpg) no-repeat center bottom;
+	background: #ffffff url(../images/bottom-shadow-img2.jpg) no-repeat center bottom;
 	display: block;
-	height: 253px;
-	width: 204px;
+	height: 303px;
+	width: 254px;
 	margin-bottom: 6px;
 	margin-right: 40px;
 	padding: 6px 6px 15px;
@@ -455,6 +464,11 @@ border-color: #FFF997!important;
 }
 #info p {
 	color: #755a0b;
+	margin-left: 324px;
+}
+#info ul li {
+	color: #755a0b;
+	margin-left: 324px;
 }
 #info p a {
 	color: #755a0b;
@@ -480,7 +494,7 @@ border-color: #FFF997!important;
 	background: url(../images/bg-button.jpg) no-repeat;
 	color: #8e7217;
 	display: block;
-	font-family: 'CorbenBold';
+	font-family: 'Minecraft Rus Regular';
 	font-size: 18px;
 	height: 30px;
 	line-height: 30px;
@@ -496,13 +510,15 @@ border-color: #FFF997!important;
 }
 #info div.info-buttons a.back {
 	float: right;
-	font-size: 16px;
+	font-size: 13px;
 	margin-right: 0;
+	font-weight: bold;
 }
 
 #info div.info-buttons2 {
 	width: 690px;
 	left: 258px;
+			margin-left: 400px;
 }
 #info div.info-buttons2 a.back {
 	float: right;
@@ -516,7 +532,7 @@ border-color: #FFF997!important;
 	color: #8f6f05;
 	display: block;
 	font-family: 'CorbenBold';
-	font-size: 14px;
+	font-size: 16px;
 	height: 20px;
 	line-height: 20px;
 	width: 80px;
@@ -533,7 +549,7 @@ border-color: #FFF997!important;
 	color: #8f6f05;
 	display: block;
 	font-family: 'CorbenBold';
-	font-size: 14px;
+	font-size: 16px;
 	height: 20px;
 	line-height: 20px;
 	width: 80px;
@@ -551,27 +567,44 @@ border-color: #FFF997!important;
 	outline: none; 
 }
 
-/*------------------------------ Shop Page ------------------------------*/
-#shop {
+#info span a.cart-buy-button{
+	float: left;
+	background-color: #fff36b;
+	color: #8f6f05;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 16px;
+	height: 20px;
+	line-height: 20px;
+	width: 80px;
+	border-radius: 3px;
+	margin: 13px auto 0;
+	padding: 1px 0 4px;
+	text-align: center;
+	text-decoration: none;
+}
+
+/*------------------------------ Hits Page ------------------------------*/
+#hits {
 	background: url(../images/border-dashed.jpg) repeat-x left bottom;
 	padding: 0 0 20px;
 	position: relative;
 }
-#shop ul.items {
+#hits ul.items {
 	display: inline-block;
 	list-style-type: none;
 	margin: 0 auto 16px;
 	padding: 0;
 }
-#shop ul.items li {
+#hits ul.items li {
 	float: left;
 	color: #8f6f05;
 	height: 340px;
 	width: 216px;
-	margin-bottom: 30px;
+	margin-bottom: 70px;
 	margin-right: 28px;
 }
-#shop ul.items li span {
+#hits ul.items li span {
 	background: #ffffff url(../images/bottom-shadow-img.jpg) no-repeat center bottom;
 	display: block;
 	height: 253px;
@@ -579,10 +612,10 @@ border-color: #FFF997!important;
 	margin-bottom: 10px;
 	padding: 6px 6px 14px;
 }
-#shop ul.items li span img {
+#hits ul.items li span img {
 	border: 1px solid #e4e0d1;
 }
-#shop ul.items li span.price {
+#hits ul.items li span.price {
 	float: right;
 	background: none;
 	color: #ffffff;
@@ -595,13 +628,13 @@ border-color: #FFF997!important;
 	padding: 0;
 	text-align: right;
 }
-#shop ul.items li a.buy {
+#hits ul.items li a.buy {
 	float: left;
 	background-color: #fff36b;
 	color: #8f6f05;
 	display: block;
 	font-family: 'CorbenBold';
-	font-size: 14px;
+	font-size: 16px;
 	height: 20px;
 	line-height: 20px;
 	width: 80px;
@@ -611,13 +644,13 @@ border-color: #FFF997!important;
 	text-align: center;
 	text-decoration: none;
 }
-#shop ul.items li a.buy2 {
+#hits ul.items li a.buy2 {
 	float: right;
 	background-color: #fff36b;
 	color: #8f6f05;
 	display: block;
 	font-family: 'CorbenBold';
-	font-size: 14px;
+	font-size: 16px;
 	height: 20px;
 	line-height: 20px;
 	width: 80px;
@@ -629,13 +662,13 @@ border-color: #FFF997!important;
 }
 
 
-#shop a.cart-buy-button{
+#hits a.cart-buy-button{
 	float: right;
 	background-color: #fff36b;
 	color: #8f6f05;
 	display: block;
 	font-family: 'CorbenBold';
-	font-size: 14px;
+	font-size: 16px;
 	height: 20px;
 	line-height: 20px;
 	width: 80px;
@@ -647,39 +680,39 @@ border-color: #FFF997!important;
 }
 
 
-#shop ul.items li.last {
+#hits ul.items li.last {
 	margin-right: 0;
 }
 
-#shop p {
+#hits p {
 	color: #755a0b;
 }
 
-#shop ul.items, li input:focus {
+#hits ul.items, li input:focus {
 	outline: none; 
 }
 
-/*------------------------------ Shop2 Page ------------------------------*/
-#shop2 {
+/*------------------------------ Is_90-x Page ------------------------------*/
+#is_90-x {
 	background: url(../images/border-dashed.jpg) repeat-x left bottom;
 	padding: 0 0 20px;
 	position: relative;
 }
-#shop2 ul.items {
+#is_90-x ul.items {
 	display: inline-block;
 	list-style-type: none;
 	margin: 0 auto 16px;
 	padding: 0;
 }
-#shop2 ul.items li {
+#is_90-x ul.items li {
 	float: left;
 	color: #8f6f05;
 	height: 340px;
 	width: 216px;
-	margin-bottom: 20px;
+	margin-bottom: 70px;
 	margin-right: 28px;
 }
-#shop2 ul.items li span {
+#is_90-x ul.items li span {
 	background: #ffffff url(../images/bottom-shadow-img.jpg) no-repeat center bottom;
 	display: block;
 	height: 253px;
@@ -687,10 +720,10 @@ border-color: #FFF997!important;
 	margin-bottom: 10px;
 	padding: 6px 6px 14px;
 }
-#shop2 ul.items li span img {
+#is_90-x ul.items li span img {
 	border: 1px solid #e4e0d1;
 }
-#shop2 ul.items li span.price {
+#is_90-x ul.items li span.price {
 	float: right;
 	background: none;
 	color: #ffffff;
@@ -698,17 +731,18 @@ border-color: #FFF997!important;
 	font-size: 17px;
 	height: 20px;
 	line-height: 20px;
-	width: 80px;
+	width: 50px;
 	margin: 0;
 	padding: 0;
 	text-align: right;
 }
-#shop2 ul.items li a.buy {
+#is_90-x ul.items li a.buy {
+	float: left;
 	background-color: #fff36b;
 	color: #8f6f05;
 	display: block;
 	font-family: 'CorbenBold';
-	font-size: 14px;
+	font-size: 16px;
 	height: 20px;
 	line-height: 20px;
 	width: 80px;
@@ -718,31 +752,78 @@ border-color: #FFF997!important;
 	text-align: center;
 	text-decoration: none;
 }
-#shop2 ul.items li.last {
+#is_90-x ul.items li.last {
+	margin-right: 0;
+}
+#is_90-x ul.items li a.buy2 {
+	float: right;
+	background-color: #fff36b;
+	color: #8f6f05;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 16px;
+	height: 20px;
+	line-height: 20px;
+	width: 80px;
+	border-radius: 3px;
+	margin: 13px auto 0;
+	padding: 1px 0 4px;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+#is_90-x a.cart-buy-button{
+	float: right;
+	background-color: #fff36b;
+	color: #8f6f05;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 16px;
+	height: 20px;
+	line-height: 20px;
+	width: 80px;
+	border-radius: 3px;
+	margin: 13px auto 0;
+	padding: 1px 0 4px;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+#is_90-x ul.items li.last {
 	margin-right: 0;
 }
 
-/*------------------------------ Shop3 Page ------------------------------*/
-#shop3 {
+#is_90-x p {
+	color: #755a0b;
+}
+
+#is_90-x ul.items, li input:focus {
+	outline: none; 
+}
+
+/*------------------------------ Candy Page ------------------------------*/
+#candy {
 	background: url(../images/border-dashed.jpg) repeat-x left bottom;
 	padding: 0 0 20px;
 	position: relative;
 }
-#shop3 ul.items {
+#candy ul.items {
 	display: inline-block;
 	list-style-type: none;
 	margin: 0 auto 16px;
 	padding: 0;
 }
-#shop3 ul.items li {
+#candy ul.items li {
 	float: left;
 	color: #8f6f05;
 	height: 340px;
 	width: 216px;
-	margin-bottom: 20px;
+	margin-bottom: 70px;
 	margin-right: 28px;
 }
-#shop3 ul.items li span {
+#candy ul.items li span {
 	background: #ffffff url(../images/bottom-shadow-img.jpg) no-repeat center bottom;
 	display: block;
 	height: 253px;
@@ -750,10 +831,10 @@ border-color: #FFF997!important;
 	margin-bottom: 10px;
 	padding: 6px 6px 14px;
 }
-#shop3 ul.items li span img {
+#candy ul.items li span img {
 	border: 1px solid #e4e0d1;
 }
-#shop3 ul.items li span.price {
+#candy ul.items li span.price {
 	float: right;
 	background: none;
 	color: #ffffff;
@@ -761,17 +842,18 @@ border-color: #FFF997!important;
 	font-size: 17px;
 	height: 20px;
 	line-height: 20px;
-	width: 80px;
+	width: 50px;
 	margin: 0;
 	padding: 0;
 	text-align: right;
 }
-#shop3 ul.items li a.buy {
+#candy ul.items li a.buy {
+	float: left;
 	background-color: #fff36b;
 	color: #8f6f05;
 	display: block;
 	font-family: 'CorbenBold';
-	font-size: 14px;
+	font-size: 16px;
 	height: 20px;
 	line-height: 20px;
 	width: 80px;
@@ -781,60 +863,17 @@ border-color: #FFF997!important;
 	text-align: center;
 	text-decoration: none;
 }
-#shop3 ul.items li.last {
+#candy ul.items li.last {
 	margin-right: 0;
 }
 
-/*------------------------------ Shop4 Page ------------------------------*/
-#shop4 {
-	background: url(../images/border-dashed.jpg) repeat-x left bottom;
-	padding: 0 0 20px;
-	position: relative;
-}
-#shop4 ul.items {
-	display: inline-block;
-	list-style-type: none;
-	margin: 0 auto 16px;
-	padding: 0;
-}
-#shop4 ul.items li {
-	float: left;
-	color: #8f6f05;
-	height: 340px;
-	width: 216px;
-	margin-bottom: 20px;
-	margin-right: 28px;
-}
-#shop4 ul.items li span {
-	background: #ffffff url(../images/bottom-shadow-img.jpg) no-repeat center bottom;
-	display: block;
-	height: 253px;
-	width: 204px;
-	margin-bottom: 10px;
-	padding: 6px 6px 14px;
-}
-#shop4 ul.items li span img {
-	border: 1px solid #e4e0d1;
-}
-#shop4 ul.items li span.price {
+#candy ul.items li a.buy2 {
 	float: right;
-	background: none;
-	color: #ffffff;
-	display: inine-block;
-	font-size: 17px;
-	height: 20px;
-	line-height: 20px;
-	width: 80px;
-	margin: 0;
-	padding: 0;
-	text-align: right;
-}
-#shop4 ul.items li a.buy {
 	background-color: #fff36b;
 	color: #8f6f05;
 	display: block;
 	font-family: 'CorbenBold';
-	font-size: 14px;
+	font-size: 16px;
 	height: 20px;
 	line-height: 20px;
 	width: 80px;
@@ -844,31 +883,57 @@ border-color: #FFF997!important;
 	text-align: center;
 	text-decoration: none;
 }
-#shop4 ul.items li.last {
+
+#candy a.cart-buy-button{
+	float: right;
+	background-color: #fff36b;
+	color: #8f6f05;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 16px;
+	height: 20px;
+	line-height: 20px;
+	width: 80px;
+	border-radius: 3px;
+	margin: 13px auto 0;
+	padding: 1px 0 4px;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+#candy ul.items li.last {
 	margin-right: 0;
 }
 
-/*------------------------------ Shop5 Page ------------------------------*/
-#shop5 {
+#candy p {
+	color: #755a0b;
+}
+
+#candy ul.items, li input:focus {
+	outline: none; 
+}
+/*------------------------------ Toys Page ------------------------------*/
+#toys {
 	background: url(../images/border-dashed.jpg) repeat-x left bottom;
 	padding: 0 0 20px;
 	position: relative;
 }
-#shop5 ul.items {
+#toys ul.items {
 	display: inline-block;
 	list-style-type: none;
 	margin: 0 auto 16px;
 	padding: 0;
 }
-#shop5 ul.items li {
+#toys ul.items li {
 	float: left;
 	color: #8f6f05;
 	height: 340px;
 	width: 216px;
-	margin-bottom: 20px;
+	margin-bottom: 70px;
 	margin-right: 28px;
 }
-#shop5 ul.items li span {
+#toys ul.items li span {
 	background: #ffffff url(../images/bottom-shadow-img.jpg) no-repeat center bottom;
 	display: block;
 	height: 253px;
@@ -876,10 +941,10 @@ border-color: #FFF997!important;
 	margin-bottom: 10px;
 	padding: 6px 6px 14px;
 }
-#shop5 ul.items li span img {
+#toys ul.items li span img {
 	border: 1px solid #e4e0d1;
 }
-#shop5 ul.items li span.price {
+#toys ul.items li span.price {
 	float: right;
 	background: none;
 	color: #ffffff;
@@ -887,17 +952,18 @@ border-color: #FFF997!important;
 	font-size: 17px;
 	height: 20px;
 	line-height: 20px;
-	width: 80px;
+	width: 50px;
 	margin: 0;
 	padding: 0;
 	text-align: right;
 }
-#shop5 ul.items li a.buy {
+#toys ul.items li a.buy {
+	float: left;
 	background-color: #fff36b;
 	color: #8f6f05;
 	display: block;
 	font-family: 'CorbenBold';
-	font-size: 14px;
+	font-size: 16px;
 	height: 20px;
 	line-height: 20px;
 	width: 80px;
@@ -907,8 +973,167 @@ border-color: #FFF997!important;
 	text-align: center;
 	text-decoration: none;
 }
-#shop5 ul.items li.last {
+#toys ul.items li.last {
 	margin-right: 0;
+}
+
+#toys ul.items li a.buy2 {
+	float: right;
+	background-color: #fff36b;
+	color: #8f6f05;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 16px;
+	height: 20px;
+	line-height: 20px;
+	width: 80px;
+	border-radius: 3px;
+	margin: 13px auto 0;
+	padding: 1px 0 4px;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+#toys a.cart-buy-button{
+	float: right;
+	background-color: #fff36b;
+	color: #8f6f05;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 16px;
+	height: 20px;
+	line-height: 20px;
+	width: 80px;
+	border-radius: 3px;
+	margin: 13px auto 0;
+	padding: 1px 0 4px;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+#toys ul.items li.last {
+	margin-right: 0;
+}
+
+#toys p {
+	color: #755a0b;
+}
+
+#toys ul.items, li input:focus {
+	outline: none; 
+}
+
+/*------------------------------ Gifts Page ------------------------------*/
+#gifts {
+	background: url(../images/border-dashed.jpg) repeat-x left bottom;
+	padding: 0 0 20px;
+	position: relative;
+}
+#gifts ul.items {
+	display: inline-block;
+	list-style-type: none;
+	margin: 0 auto 16px;
+	padding: 0;
+}
+#gifts ul.items li {
+	float: left;
+	color: #8f6f05;
+	height: 340px;
+	width: 216px;
+	margin-bottom: 70px;
+	margin-right: 28px;
+}
+#gifts ul.items li span {
+	background: #ffffff url(../images/bottom-shadow-img.jpg) no-repeat center bottom;
+	display: block;
+	height: 253px;
+	width: 204px;
+	margin-bottom: 10px;
+	padding: 6px 6px 14px;
+}
+#gifts ul.items li span img {
+	border: 1px solid #e4e0d1;
+}
+#gifts ul.items li span.price {
+	float: right;
+	background: none;
+	color: #ffffff;
+	display: inine-block;
+	font-size: 17px;
+	height: 20px;
+	line-height: 20px;
+	width: 50px;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+#gifts ul.items li a.buy {
+	float: left;
+	background-color: #fff36b;
+	color: #8f6f05;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 16px;
+	height: 20px;
+	line-height: 20px;
+	width: 80px;
+	border-radius: 3px;
+	margin: 13px auto 0;
+	padding: 1px 0 4px;
+	text-align: center;
+	text-decoration: none;
+}
+#gifts ul.items li.last {
+	margin-right: 0;
+}
+
+#gifts ul.items li a.buy2 {
+	float: right;
+	background-color: #fff36b;
+	color: #8f6f05;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 16px;
+	height: 20px;
+	line-height: 20px;
+	width: 80px;
+	border-radius: 3px;
+	margin: 13px auto 0;
+	padding: 1px 0 4px;
+	text-align: center;
+	text-decoration: none;
+}
+
+#gifts a.cart-buy-button{
+	float: right;
+	background-color: #fff36b;
+	color: #8f6f05;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 16px;
+	height: 20px;
+	line-height: 20px;
+	width: 80px;
+	border-radius: 3px;
+	margin: 13px auto 0;
+	padding: 1px 0 4px;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+#gifts ul.items li.last {
+	margin-right: 0;
+}
+
+#gifts p {
+	color: #755a0b;
+}
+
+#gifts ul.items, li input:focus {
+	outline: none; 
 }
 
 /*------------------------------ FOOTER ------------------------------*/
@@ -956,10 +1181,11 @@ border-color: #FFF997!important;
 #footer div.navigation {
 	color: #ffffff;
 	font-size: 14px;
-	line-height: 20px;
+	line-height: 0px;
 	width: 400px;
 	margin: 0 auto 20px;
 	text-shadow: 0 1px 0 #af9e31;
+	font-family: 'Minecraft Rus Regular';
 }
 #footer div.navigation a {
 	color: #ffffff;
@@ -994,3 +1220,33 @@ border-color: #FFF997!important;
 	_top: 620px;
 }
 
+
+
+
+@media screen and (max-width: 1400px) {
+#background {
+	background: url(../images/bg-body.jpg) repeat;
+	min-height: 1440px;
+	border-top: 1px solid #cc9f0f;
+}
+#page {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#page2 {
+	position: fixed;
+	top: 30;
+	right: 0;
+	width: 170px;
+	z-index: 100;
+	border-color: #fff36b!important;
+}
+.bootstrap-widget .popover.bottom {
+    top: 80px!important;
+    left: initial!important;
+    right: 10px!important;
+    position: fixed;
+    background-color: #D2AA2E;
+    border-color: #fff36b;
+}
