@@ -1221,32 +1221,3 @@ border-color: #FFF997!important;
 }
 
 
-
-
-@media screen and (max-width: 1400px) {
-#background {
-	background: url(../images/bg-body.jpg) repeat;
-	min-height: 1440px;
-	border-top: 1px solid #cc9f0f;
-}
-#page {
-	width: 960px;
-	margin: 0 auto;
-}
-
-#page2 {
-	position: fixed;
-	top: 30;
-	right: 0;
-	width: 170px;
-	z-index: 100;
-	border-color: #fff36b!important;
-}
-.bootstrap-widget .popover.bottom {
-    top: 80px!important;
-    left: initial!important;
-    right: 10px!important;
-    position: fixed;
-    background-color: #D2AA2E;
-    border-color: #fff36b;
-}
