@@ -238,7 +238,7 @@ border-color: #FFF997!important;
 	text-decoration: none;
 }
 #navigation a:hover, #navigation li.selected a {
-	color: #f9f9f5;
+	color: #940000;
 	text-shadow: 1px 1px 0 #a8840b;
 }
 
@@ -283,7 +283,7 @@ border-color: #FFF997!important;
 }
 
 #adbox {
-	background: #ffffff url(../images/bottom-shadow-headliner.jpg) no-repeat center bottom;
+	background: #940000 url(../images/bottom-shadow-headliner.jpg) no-repeat center bottom;
 	height: 371px;
 	width: 935px;
 	margin: 0 auto;
@@ -309,7 +309,7 @@ border-color: #FFF997!important;
 }
 #featured ul li {
 	float: left;
-	background: #ffffff url(../images/bottom-shadow-img.jpg) no-repeat center bottom;
+	background: #940000 url(../images/bottom-shadow-img.jpg) no-repeat center bottom;
 	height: 253px;
 	width: 204px;
 	margin-right: 28px;
@@ -618,12 +618,12 @@ border-color: #FFF997!important;
 #hits ul.items li span.price {
 	float: right;
 	background: none;
-	color: #ffffff;
+	color: #940000;
 	display: inine-block;
-	font-size: 17px;
+	font-size: 23px;
 	height: 20px;
 	line-height: 20px;
-	width: 50px;
+	width: 60px;
 	margin: 0;
 	padding: 0;
 	text-align: right;
@@ -726,12 +726,12 @@ border-color: #FFF997!important;
 #is_90-x ul.items li span.price {
 	float: right;
 	background: none;
-	color: #ffffff;
+	color: #940000;
 	display: inine-block;
-	font-size: 17px;
+	font-size: 23px;
 	height: 20px;
 	line-height: 20px;
-	width: 50px;
+	width: 60px;
 	margin: 0;
 	padding: 0;
 	text-align: right;
@@ -837,12 +837,12 @@ border-color: #FFF997!important;
 #candy ul.items li span.price {
 	float: right;
 	background: none;
-	color: #ffffff;
+	color: #940000;
 	display: inine-block;
-	font-size: 17px;
+	font-size: 23px;
 	height: 20px;
 	line-height: 20px;
-	width: 50px;
+	width: 60px;
 	margin: 0;
 	padding: 0;
 	text-align: right;
@@ -947,12 +947,12 @@ border-color: #FFF997!important;
 #toys ul.items li span.price {
 	float: right;
 	background: none;
-	color: #ffffff;
+	color: #940000;
 	display: inine-block;
-	font-size: 17px;
+	font-size: 23px;
 	height: 20px;
 	line-height: 20px;
-	width: 50px;
+	width: 60px;
 	margin: 0;
 	padding: 0;
 	text-align: right;
@@ -1059,12 +1059,12 @@ border-color: #FFF997!important;
 #gifts ul.items li span.price {
 	float: right;
 	background: none;
-	color: #ffffff;
+	color: #940000;
 	display: inine-block;
-	font-size: 17px;
+	font-size: 23px;
 	height: 20px;
 	line-height: 20px;
-	width: 50px;
+	width: 60px;
 	margin: 0;
 	padding: 0;
 	text-align: right;
@@ -1179,19 +1179,21 @@ border-color: #FFF997!important;
 }
 
 #footer div.navigation {
-	color: #ffffff;
-	font-size: 14px;
+	color: #940000;
+	font-size: 15px;
 	line-height: 0px;
-	width: 400px;
+	width: 500px;
 	margin: 0 auto 20px;
 	text-shadow: 0 1px 0 #af9e31;
 	font-family: 'Minecraft Rus Regular';
+	font-weight: bold;
 }
 #footer div.navigation a {
-	color: #ffffff;
+	color: #940000;
 	padding: 0 15px;
 	text-decoration: none;
 	text-shadow: 1px 1px 0 #af9e31;
+	font-weight: bold;
 }
 #footer div.navigation a:hover {
 	color: #9d7912;
