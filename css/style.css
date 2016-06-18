@@ -1250,3 +1250,79 @@ border-color: #FFF997!important;
     background-color: #D2AA2E;
     border-color: #fff36b;
 }
+
+
+
+
+@media screen and (max-width: 1060px) {
+#background {
+	background: url(../images/bg-body.jpg) repeat;
+	min-height: 1440px;
+	border-top: 1px solid #cc9f0f;
+}
+#page {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#page2 {
+	position: fixed;
+	top: 30;
+	right: 0;
+	width: 170px;
+	z-index: 100;
+	border-color: #fff36b!important;
+}
+.bootstrap-widget .popover.bottom {
+    top: 80px!important;
+    left: initial!important;
+    right: 10px!important;
+    position: fixed;
+    background-color: #D2AA2E;
+    border-color: #fff36b;
+}
+
+#connect {
+	float: left;
+	display: inline-block;
+	height: 30px;
+	width: 450px;
+	margin: 0px 0 15px 10px;
+	color: #755a0b
+}
+#connect a {
+	display: inline-block;
+	height: 30px;
+	margin: 0 10px;
+	padding: 0;
+	color: #755a0b
+}
+#connect .facebook {
+	background-position: 0 2px;
+	width: 27px;
+}
+#connect .twitter {
+	background-position: 0 -36px;
+	width: 36px;
+}
+#connect .vimeo {
+	background-position: 0 -74px;
+	width: 32px;
+}
+
+#infos {
+	float: right;
+	color: #635320;
+	display: inline-block;
+	height: 30px;
+	margin: 0px 200px 0px 0px;
+	text-align: right;
+}
+#infos  a {
+	color: #635320;
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 30px;
+	margin: 0 5px;
+	text-decoration: none;
+}
