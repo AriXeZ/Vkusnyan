@@ -130,10 +130,21 @@ div.cart {
 .bootstrap-widget .popover.bottom {
     top: 80px!important;
     left: initial!important;
-    right: 110px!important;
+    right: 10px!important;
     position: fixed;
     background-color: #D2AA2E;
     border-color: #fff36b;
+    box-shadow: inset 3px 3px 7px 1px #8e7217;
+}
+
+.bootstrap-widget .popover.bottom:hover {
+    top: 80px!important;
+    left: initial!important;
+    right: 10px!important;
+    position: fixed;
+    background-color: #D2AA2E;
+    border-color: #fff36b;
+    box-shadow: inset 3px 3px 7px 1px #8e7217;
 }
 .cart {
     width: auto!important; 
@@ -337,26 +348,53 @@ outline: none!important;
 #featured ul li.last {
 	margin-right: 0;
 }
-#featured ul li img {
-	border: 1px solid #e4e0d1;
-}
+
+
 #featured a.button {
-	background: url(../images/bg-button.jpg) no-repeat;
+	float: right;
+	background-color: #D2AA2E;
 	color: #8e7217;
+	margin-right: 0;
+	font-size: 17px;
+	font-weight: bold;
 	display: block;
 	font-family: 'Minecraft Rus Regular';
-	font-size: 13px;
-	height: 30px;
-	line-height: 30px;
-	width: 144px;
+	line-height: 20px;
+	width: 166px;
+	border-radius: 9px;
+	margin: 0px 10px 0px 0px;
 	padding: 4px 0 6px;
 	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #715703;
 	text-decoration: none;
 	position: absolute;
-	bottom: -20px;
-	left: 403px;
-	font-weight: bold;
+	bottom: 0px;
+	left: 400px;
 }
+
+#featured a.button:hover {
+	float: right;
+	background-color: #fff36b;
+	color: #755a0b;
+	margin-right: 0;
+	font-size: 17px;
+	font-weight: bold;
+	display: block;
+	font-family: 'Minecraft Rus Regular';
+	line-height: 20px;
+	width: 166px;
+	border-radius: 9px;
+	margin: 0px 10px 0px 0px;
+	padding: 4px 0 6px;
+	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #715703;
+	text-decoration: none;
+	position: absolute;
+	bottom: 0px;
+	left: 400px;
+}
+
+
 
 /*------------------------------ Blog Page ------------------------------*/
 #blogs {
@@ -1381,9 +1419,9 @@ outline: none!important;
 }
 #footer div.navigation a {
 	color: #755a0b;
-	padding: 0 15px;
+	padding: 0 31px;
 	text-decoration: none;
-	text-shadow: 1px 1px 0 #af9e31;
+	text-shadow: 2px 2px 0 #af9e31;
 	font-weight: bold;
 }
 #footer div.navigation a:hover {
@@ -1442,7 +1480,7 @@ outline: none!important;
     position: fixed;
     background-color: #D2AA2E;
     border-color: #fff36b;
-    box-shadow: inset 5px 5px 15px 1px #8e7217;
+    box-shadow: inset 3px 3px 7px 1px #8e7217;
 }
 
 .bootstrap-widget .popover.bottom:hover {
@@ -1452,7 +1490,7 @@ outline: none!important;
     position: fixed;
     background-color: #D2AA2E;
     border-color: #fff36b;
-    box-shadow: inset 5px 5px 15px 1px #8e7217;
+    box-shadow: inset 3px 3px 7px 1px #8e7217;
 }
 
 @media screen and (max-width: 1060px) {
@@ -1481,6 +1519,17 @@ outline: none!important;
     position: fixed;
     background-color: #D2AA2E;
     border-color: #fff36b;
+    box-shadow: inset 3px 3px 7px 1px #8e7217;
+}
+
+.bootstrap-widget .popover.bottom:hover {
+    top: 80px!important;
+    left: initial!important;
+    right: 10px!important;
+    position: fixed;
+    background-color: #D2AA2E;
+    border-color: #fff36b;
+    box-shadow: inset 3px 3px 7px 1px #8e7217;
 }
 
 #connect {
