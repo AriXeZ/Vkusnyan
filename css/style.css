@@ -413,6 +413,7 @@ border-color: #FFF997!important;
 	margin-right: 20px;
 	padding: 4px 0 6px;
 	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #715703;
 	text-decoration: none;
 }
 #blogs div.blog-entry-buttons {
@@ -491,7 +492,6 @@ border-color: #FFF997!important;
 }
 #info div.buttons a, #info div.info-buttons a {
 	float: left;
-	background: url(../images/bg-button.jpg) no-repeat;
 	color: #8e7217;
 	display: block;
 	font-family: 'Minecraft Rus Regular';
@@ -502,23 +502,34 @@ border-color: #FFF997!important;
 	margin-right: 20px;
 	padding: 4px 0 6px;
 	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #715703;
 	text-decoration: none;
 }
+
 #info div.info-buttons {
-	width: 690px;
+	width: 850px;
 	left: 258px;
 }
 #info div.info-buttons a.back {
 	float: right;
-	font-size: 13px;
+	background-color: #D2AA2E;
 	margin-right: 0;
+	font-size: 17px;
 	font-weight: bold;
+	height: 40px;
+	line-height: 20px;
+	width: 140px;
+	border-radius: 7px;
+	margin: 13px 10px 0px 0px;
+	padding: 1px 0 4px;
+	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #715703;
+	text-decoration: none;
 }
 
 #info div.info-buttons2 {
-	width: 690px;
+	width: 230px;
 	left: 258px;
-			margin-left: 400px;
 }
 #info div.info-buttons2 a.back {
 	float: right;
@@ -527,19 +538,21 @@ border-color: #FFF997!important;
 }
 
 #info div.buttons2 a, #info div.info-buttons2 a {
-	float: left;
+	float: right;
 	background-color: #fff36b;
 	color: #8f6f05;
 	display: block;
 	font-family: 'CorbenBold';
-	font-size: 16px;
-	height: 20px;
-	line-height: 20px;
-	width: 80px;
-	border-radius: 3px;
-	margin: 13px auto 0;
+	font-size: 20px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 18px;
+	width: 140px;
+	border-radius: 13px;
+	margin: 13px 10px 0px 0px;
 	padding: 1px 0 4px;
 	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #715703;
 	text-decoration: none;
 }
 
@@ -568,19 +581,21 @@ border-color: #FFF997!important;
 }
 
 #info span a.cart-buy-button{
-	float: left;
+	float: right;
 	background-color: #fff36b;
 	color: #8f6f05;
 	display: block;
 	font-family: 'CorbenBold';
-	font-size: 16px;
-	height: 20px;
-	line-height: 20px;
-	width: 80px;
-	border-radius: 3px;
+	font-size: 20px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 18px;
+	width: 140px;
+	border-radius: 13px;
 	margin: 13px auto 0;
 	padding: 1px 0 4px;
 	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #715703;
 	text-decoration: none;
 }
 
@@ -668,14 +683,16 @@ border-color: #FFF997!important;
 	color: #8f6f05;
 	display: block;
 	font-family: 'CorbenBold';
-	font-size: 16px;
-	height: 20px;
-	line-height: 20px;
-	width: 80px;
-	border-radius: 3px;
+	font-size: 20px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 18px;
+	width: 140px;
+	border-radius: 13px;
 	margin: 13px auto 0;
 	padding: 1px 0 4px;
 	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #715703;
 	text-decoration: none;
 }
 
@@ -779,14 +796,16 @@ border-color: #FFF997!important;
 	color: #8f6f05;
 	display: block;
 	font-family: 'CorbenBold';
-	font-size: 16px;
-	height: 20px;
-	line-height: 20px;
-	width: 80px;
-	border-radius: 3px;
+	font-size: 20px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 18px;
+	width: 140px;
+	border-radius: 13px;
 	margin: 13px auto 0;
 	padding: 1px 0 4px;
 	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #715703;
 	text-decoration: none;
 }
 
@@ -890,14 +909,16 @@ border-color: #FFF997!important;
 	color: #8f6f05;
 	display: block;
 	font-family: 'CorbenBold';
-	font-size: 16px;
-	height: 20px;
-	line-height: 20px;
-	width: 80px;
-	border-radius: 3px;
+	font-size: 20px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 18px;
+	width: 140px;
+	border-radius: 13px;
 	margin: 13px auto 0;
 	padding: 1px 0 4px;
 	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #715703;
 	text-decoration: none;
 }
 
@@ -1001,14 +1022,16 @@ border-color: #FFF997!important;
 	color: #8f6f05;
 	display: block;
 	font-family: 'CorbenBold';
-	font-size: 16px;
-	height: 20px;
-	line-height: 20px;
-	width: 80px;
-	border-radius: 3px;
+	font-size: 20px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 18px;
+	width: 140px;
+	border-radius: 13px;
 	margin: 13px auto 0;
 	padding: 1px 0 4px;
 	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #715703;
 	text-decoration: none;
 }
 
@@ -1112,14 +1135,16 @@ border-color: #FFF997!important;
 	color: #8f6f05;
 	display: block;
 	font-family: 'CorbenBold';
-	font-size: 16px;
-	height: 20px;
-	line-height: 20px;
-	width: 80px;
-	border-radius: 3px;
+	font-size: 20px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 18px;
+	width: 140px;
+	border-radius: 13px;
 	margin: 13px auto 0;
 	padding: 1px 0 4px;
 	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #715703;
 	text-decoration: none;
 }
 
@@ -1180,7 +1205,7 @@ border-color: #FFF997!important;
 
 #footer div.navigation {
 	color: #940000;
-	font-size: 15px;
+	font-size: 17px;
 	line-height: 0px;
 	width: 500px;
 	margin: 0 auto 20px;
