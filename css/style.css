@@ -40,7 +40,6 @@ img {
 
 
 .cart-button {
-    background-color: #D2AA2E;
     border-style: solid;
     border-width: 1px;
     border-color: #fff36b;
@@ -55,7 +54,26 @@ img {
 	text-align: center!important;
 	text-decoration: none!important;
 	z-index: 100;
-	box-shadow: 0 0 15px 1px #715703;
+	box-shadow: inset 5px 5px 15px 1px #8e7217;
+}
+
+.cart-button:hover {
+    background-color: #fff997;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff36b;
+    border-radius: 30px;
+	color: #8e7217!important;
+	display: block!important;
+	font-family: 'Times New Roman', Times, serif;
+	height: 60px!important;
+	line-height: 25px!important;
+	width: 154px!important;
+	padding: 13px 0 13px!important;
+	text-align: center!important;
+	text-decoration: none!important;
+	z-index: 100;
+	box-shadow: inset 5px 5px 15px 1px #c6b452;
 }
 
 .cart-buttons{
@@ -140,8 +158,9 @@ div.cart {
 }
 .cart .cart-purchase-button, .cart .cart-send-order-button {
 background-color: #FFF997!important;
-border-color: #FFF997!important;
-	outline: none!important;
+border-color: #8e7217!important;
+box-shadow: inset 2px 2px 7px 1px #8e7217!important;
+outline: none!important;
 }
 .cart .cart-purchase-button:hover, .cart .cart-send-order-button:hover {
 	background-color: #C6B452!important;
@@ -527,6 +546,24 @@ border-color: #FFF997!important;
 	text-decoration: none;
 }
 
+#info div.info-buttons a.back:hover {
+	float: right;
+	background-color: #fff36b;
+	color: #755a0b;
+	margin-right: 0;
+	font-size: 17px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 20px;
+	width: 140px;
+	border-radius: 7px;
+	margin: 13px 10px 0px 0px;
+	padding: 4px 0 4px;
+	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #715703;
+	text-decoration: none;
+}
+
 #info div.info-buttons2 {
 	width: 230px;
 	left: 258px;
@@ -541,6 +578,25 @@ border-color: #FFF997!important;
 	float: right;
 	background-color: #fff36b;
 	color: #8f6f05;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 20px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 18px;
+	width: 140px;
+	border-radius: 13px;
+	margin: 13px 10px 0px 0px;
+	padding: 1px 0 4px;
+	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #715703;
+	text-decoration: none;
+}
+
+#info div.buttons2 a, #info div.info-buttons2 a:hover {
+	float: right;
+	background-color: #D2AA2E;
+	color: #755a0b;
 	display: block;
 	font-family: 'CorbenBold';
 	font-size: 20px;
@@ -598,6 +654,26 @@ border-color: #FFF997!important;
 	box-shadow: inset 1px 2px 6px 0px #715703;
 	text-decoration: none;
 }
+
+#info span a.cart-buy-button:hover {
+	float: right;
+	background-color: #D2AA2E;
+	color: #755a0b;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 20px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 18px;
+	width: 140px;
+	border-radius: 13px;
+	margin: 13px auto 0;
+	padding: 1px 0 4px;
+	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #715703;
+	text-decoration: none;
+}
+
 
 /*------------------------------ Hits Page ------------------------------*/
 #hits {
@@ -696,6 +772,24 @@ border-color: #FFF997!important;
 	text-decoration: none;
 }
 
+#hits a.cart-buy-button:hover {
+	float: right;
+	background-color: #D2AA2E;
+	color: #755a0b;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 20px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 18px;
+	width: 140px;
+	border-radius: 13px;
+	margin: 13px auto 0;
+	padding: 1px 0 4px;
+	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #715703;
+	text-decoration: none;
+}
 
 #hits ul.items li.last {
 	margin-right: 0;
@@ -809,6 +903,24 @@ border-color: #FFF997!important;
 	text-decoration: none;
 }
 
+#is_90-x a.cart-buy-button:hover{
+	float: right;
+	background-color: #D2AA2E;
+	color: #755a0b;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 20px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 18px;
+	width: 140px;
+	border-radius: 13px;
+	margin: 13px auto 0;
+	padding: 1px 0 4px;
+	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #715703;
+	text-decoration: none;
+}
 
 #is_90-x ul.items li.last {
 	margin-right: 0;
@@ -922,6 +1034,24 @@ border-color: #FFF997!important;
 	text-decoration: none;
 }
 
+#candy a.cart-buy-button:hover {
+	float: right;
+	background-color: #D2AA2E;
+	color: #755a0b;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 20px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 18px;
+	width: 140px;
+	border-radius: 13px;
+	margin: 13px auto 0;
+	padding: 1px 0 4px;
+	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #715703;
+	text-decoration: none;
+}
 
 #candy ul.items li.last {
 	margin-right: 0;
@@ -1035,6 +1165,24 @@ border-color: #FFF997!important;
 	text-decoration: none;
 }
 
+#toys a.cart-buy-button:hover {
+	float: right;
+	background-color: #D2AA2E;
+	color: #755a0b;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 20px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 18px;
+	width: 140px;
+	border-radius: 13px;
+	margin: 13px auto 0;
+	padding: 1px 0 4px;
+	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #715703;
+	text-decoration: none;
+}
 
 #toys ul.items li.last {
 	margin-right: 0;
@@ -1148,6 +1296,24 @@ border-color: #FFF997!important;
 	text-decoration: none;
 }
 
+#gifts a.cart-buy-button:hover {
+	float: right;
+	background-color: #D2AA2E;
+	color: #755a0b;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 20px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 18px;
+	width: 140px;
+	border-radius: 13px;
+	margin: 13px auto 0;
+	padding: 1px 0 4px;
+	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #715703;
+	text-decoration: none;
+}
 
 #gifts ul.items li.last {
 	margin-right: 0;
@@ -1204,7 +1370,7 @@ border-color: #FFF997!important;
 }
 
 #footer div.navigation {
-	color: #940000;
+	color: #755a0b;
 	font-size: 17px;
 	line-height: 0px;
 	width: 500px;
@@ -1214,14 +1380,14 @@ border-color: #FFF997!important;
 	font-weight: bold;
 }
 #footer div.navigation a {
-	color: #940000;
+	color: #755a0b;
 	padding: 0 15px;
 	text-decoration: none;
 	text-shadow: 1px 1px 0 #af9e31;
 	font-weight: bold;
 }
 #footer div.navigation a:hover {
-	color: #9d7912;
+	color: #940000;
 }
 
 /*------------------------------ For IE6 ------------------------------*/
@@ -1276,10 +1442,18 @@ border-color: #FFF997!important;
     position: fixed;
     background-color: #D2AA2E;
     border-color: #fff36b;
+    box-shadow: inset 5px 5px 15px 1px #8e7217;
 }
 
-
-
+.bootstrap-widget .popover.bottom:hover {
+    top: 80px!important;
+    left: initial!important;
+    right: 10px!important;
+    position: fixed;
+    background-color: #D2AA2E;
+    border-color: #fff36b;
+    box-shadow: inset 5px 5px 15px 1px #8e7217;
+}
 
 @media screen and (max-width: 1060px) {
 #background {
