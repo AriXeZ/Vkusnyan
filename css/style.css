@@ -130,22 +130,13 @@ div.cart {
 .bootstrap-widget .popover.bottom {
     top: 80px!important;
     left: initial!important;
-    right: 10px!important;
+    right: 70px!important;
     position: fixed;
     background-color: #D2AA2E;
     border-color: #fff36b;
     box-shadow: inset 3px 3px 7px 1px #8e7217;
 }
 
-.bootstrap-widget .popover.bottom:hover {
-    top: 80px!important;
-    left: initial!important;
-    right: 10px!important;
-    position: fixed;
-    background-color: #D2AA2E;
-    border-color: #fff36b;
-    box-shadow: inset 3px 3px 7px 1px #8e7217;
-}
 .cart {
     width: auto!important; 
 }
@@ -730,8 +721,9 @@ outline: none!important;
 	color: #8f6f05;
 	height: 340px;
 	width: 216px;
-	margin-bottom: 70px;
+	margin-bottom: 100px;
 	margin-right: 28px;
+	font-size: 17px;
 }
 #hits ul.items li span {
 	background: #ffffff url(../images/bottom-shadow-img.jpg) no-repeat center bottom;
@@ -858,8 +850,9 @@ outline: none!important;
 	color: #8f6f05;
 	height: 340px;
 	width: 216px;
-	margin-bottom: 70px;
+	margin-bottom: 100px;
 	margin-right: 28px;
+	font-size: 18px;
 }
 #is_90-x ul.items li span {
 	background: #ffffff url(../images/bottom-shadow-img.jpg) no-repeat center bottom;
@@ -989,8 +982,9 @@ outline: none!important;
 	color: #8f6f05;
 	height: 340px;
 	width: 216px;
-	margin-bottom: 70px;
+	margin-bottom: 100px;
 	margin-right: 28px;
+	font-size: 18px;
 }
 #candy ul.items li span {
 	background: #ffffff url(../images/bottom-shadow-img.jpg) no-repeat center bottom;
@@ -1119,8 +1113,9 @@ outline: none!important;
 	color: #8f6f05;
 	height: 340px;
 	width: 216px;
-	margin-bottom: 70px;
+	margin-bottom: 100px;
 	margin-right: 28px;
+	font-size: 18px;
 }
 #toys ul.items li span {
 	background: #ffffff url(../images/bottom-shadow-img.jpg) no-repeat center bottom;
@@ -1251,8 +1246,9 @@ outline: none!important;
 	color: #8f6f05;
 	height: 340px;
 	width: 216px;
-	margin-bottom: 70px;
+	margin-bottom: 100px;
 	margin-right: 28px;
+	font-size: 18px;
 }
 #gifts ul.items li span {
 	background: #ffffff url(../images/bottom-shadow-img.jpg) no-repeat center bottom;
@@ -1421,7 +1417,7 @@ outline: none!important;
 	color: #755a0b;
 	padding: 0 31px;
 	text-decoration: none;
-	text-shadow: 2px 2px 0 #af9e31;
+	text-shadow: 1px 1px 0 #af9e31;
 	font-weight: bold;
 }
 #footer div.navigation a:hover {
