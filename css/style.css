@@ -76,6 +76,45 @@ img {
 	box-shadow: inset 5px 5px 15px 1px #c6b452;
 }
 
+.cart-buy-button1{
+	float: right;
+	background-color: #a4a4a4;
+	color: #4a4a4a;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 20px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 18px;
+	width: 140px;
+	border-radius: 13px;
+	margin: 13px auto 0;
+	padding: 1px 0 4px;
+	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #333333;
+	text-decoration: none;
+}
+
+.cart-buy-button1:hover {
+	float: right;
+	background-color: #808080;
+	color: #333333;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 20px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 18px;
+	width: 140px;
+	border-radius: 13px;
+	margin: 13px auto 0;
+	padding: 1px 0 4px;
+	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #333333;
+	text-decoration: none;
+}
+
+
 .cart-buttons{
 	font-size: 30px!important;
 	color: #940000!important;
@@ -645,6 +684,44 @@ outline: none!important;
 	text-decoration: none;
 }
 
+#info div.buttons2 a, #info div.info-buttons2 a {
+	float: right;
+	background-color: #a4a4a4;
+	color: #4a4a4a;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 20px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 18px;
+	width: 140px;
+	border-radius: 13px;
+	margin: 13px auto 0;
+	padding: 1px 0 4px;
+	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #333333;
+	text-decoration: none;
+}
+
+#info div.buttons2 a, #info div.info-buttons2 a:hover {
+	float: right;
+	background-color: #808080;
+	color: #333333;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 20px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 18px;
+	width: 140px;
+	border-radius: 13px;
+	margin: 13px auto 0;
+	padding: 1px 0 4px;
+	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #333333;
+	text-decoration: none;
+}
+
 #info ul.items li a.buy3 {
 	float: right;
 	background-color: #fff36b;
@@ -706,6 +783,46 @@ outline: none!important;
 	box-shadow: inset 1px 2px 6px 0px #715703;
 	text-decoration: none;
 }
+
+
+#info span a.cart-buy-button1{
+	float: right;
+	background-color: #a4a4a4;
+	color: #4a4a4a;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 20px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 18px;
+	width: 140px;
+	border-radius: 13px;
+	margin: 13px auto 0;
+	padding: 1px 0 4px;
+	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #333333;
+	text-decoration: none;
+}
+
+#info span a.cart-buy-button1:hover {
+	float: right;
+	background-color: #808080;
+	color: #333333;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 20px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 18px;
+	width: 140px;
+	border-radius: 13px;
+	margin: 13px auto 0;
+	padding: 1px 0 4px;
+	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #333333;
+	text-decoration: none;
+}
+
 
 
 /*------------------------------ Hits Page ------------------------------*/
@@ -822,6 +939,44 @@ outline: none!important;
 	padding: 1px 0 4px;
 	text-align: center;
 	box-shadow: inset 1px 2px 6px 0px #715703;
+	text-decoration: none;
+}
+
+#hits a.cart-buy-button1{
+	float: right;
+	background-color: #a4a4a4;
+	color: #4a4a4a;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 20px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 18px;
+	width: 140px;
+	border-radius: 13px;
+	margin: 13px auto 0;
+	padding: 1px 0 4px;
+	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #333333;
+	text-decoration: none;
+}
+
+#hits a.cart-buy-button1:hover {
+	float: right;
+	background-color: #808080;
+	color: #333333;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 20px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 18px;
+	width: 140px;
+	border-radius: 13px;
+	margin: 13px auto 0;
+	padding: 1px 0 4px;
+	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #333333;
 	text-decoration: none;
 }
 
@@ -957,6 +1112,44 @@ outline: none!important;
 	text-decoration: none;
 }
 
+#is_90-x a.cart-buy-button1{
+	float: right;
+	background-color: #a4a4a4;
+	color: #4a4a4a;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 20px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 18px;
+	width: 140px;
+	border-radius: 13px;
+	margin: 13px auto 0;
+	padding: 1px 0 4px;
+	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #333333;
+	text-decoration: none;
+}
+
+#is_90-x a.cart-buy-button1:hover {
+	float: right;
+	background-color: #808080;
+	color: #333333;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 20px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 18px;
+	width: 140px;
+	border-radius: 13px;
+	margin: 13px auto 0;
+	padding: 1px 0 4px;
+	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #333333;
+	text-decoration: none;
+}
+
 #is_90-x ul.items li.last {
 	margin-right: 0;
 }
@@ -1086,6 +1279,44 @@ outline: none!important;
 	padding: 1px 0 4px;
 	text-align: center;
 	box-shadow: inset 1px 2px 6px 0px #715703;
+	text-decoration: none;
+}
+
+#candy a.cart-buy-button1{
+	float: right;
+	background-color: #a4a4a4;
+	color: #4a4a4a;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 20px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 18px;
+	width: 140px;
+	border-radius: 13px;
+	margin: 13px auto 0;
+	padding: 1px 0 4px;
+	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #333333;
+	text-decoration: none;
+}
+
+#candy a.cart-buy-button1:hover {
+	float: right;
+	background-color: #808080;
+	color: #333333;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 20px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 18px;
+	width: 140px;
+	border-radius: 13px;
+	margin: 13px auto 0;
+	padding: 1px 0 4px;
+	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #333333;
 	text-decoration: none;
 }
 
@@ -1221,6 +1452,44 @@ outline: none!important;
 	text-decoration: none;
 }
 
+#toys a.cart-buy-button1{
+	float: right;
+	background-color: #a4a4a4;
+	color: #4a4a4a;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 20px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 18px;
+	width: 140px;
+	border-radius: 13px;
+	margin: 13px auto 0;
+	padding: 1px 0 4px;
+	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #333333;
+	text-decoration: none;
+}
+
+#toys a.cart-buy-button1:hover {
+	float: right;
+	background-color: #808080;
+	color: #333333;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 20px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 18px;
+	width: 140px;
+	border-radius: 13px;
+	margin: 13px auto 0;
+	padding: 1px 0 4px;
+	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #333333;
+	text-decoration: none;
+}
+
 #toys ul.items li.last {
 	margin-right: 0;
 }
@@ -1350,6 +1619,44 @@ outline: none!important;
 	padding: 1px 0 4px;
 	text-align: center;
 	box-shadow: inset 1px 2px 6px 0px #715703;
+	text-decoration: none;
+}
+
+#gifts a.cart-buy-button1{
+	float: right;
+	background-color: #a4a4a4;
+	color: #4a4a4a;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 20px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 18px;
+	width: 140px;
+	border-radius: 13px;
+	margin: 13px auto 0;
+	padding: 1px 0 4px;
+	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #333333;
+	text-decoration: none;
+}
+
+#gifts a.cart-buy-button1:hover {
+	float: right;
+	background-color: #808080;
+	color: #333333;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 20px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 18px;
+	width: 140px;
+	border-radius: 13px;
+	margin: 13px auto 0;
+	padding: 1px 0 4px;
+	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #333333;
 	text-decoration: none;
 }
 
