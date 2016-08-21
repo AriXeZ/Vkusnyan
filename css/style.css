@@ -135,7 +135,12 @@ div.cart {
 
 /*------------------------------ HEADER ------------------------------*/
 #header {
-	background: url(../images/bg-header2.jpg) no-repeat center top;
+	background: url(../images/bg-header02.gif) no-repeat center top;
+	min-height: 340px;
+	margin-bottom: 20px;
+}
+#header01 {
+	background: url(../images/bg-header01.gif) no-repeat center top;
 	min-height: 340px;
 	margin-bottom: 20px;
 }
