@@ -144,7 +144,11 @@ div.cart {
 	min-height: 340px;
 	margin-bottom: 20px;
 }
-
+#header02 {
+	background: url(../images/bg-header03.gif) no-repeat center top;
+	min-height: 340px;
+	margin-bottom: 20px;
+}
 #page2 {
 	position: fixed;
 	top: 30;
