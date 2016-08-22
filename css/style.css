@@ -689,7 +689,7 @@ outline: none!important;
 	text-decoration: none;
 }
 
-#info div.buttons2 a, #info div.info-buttons2 a {
+#info div.buttons3 a, #info div.info-buttons3 a {
 	float: right;
 	background-color: #a4a4a4;
 	color: #4a4a4a;
@@ -708,7 +708,7 @@ outline: none!important;
 	text-decoration: none;
 }
 
-#info div.buttons2 a, #info div.info-buttons2 a:hover {
+#info div.buttons3 a, #info div.info-buttons3 a:hover {
 	float: right;
 	background-color: #808080;
 	color: #333333;
