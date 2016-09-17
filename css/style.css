@@ -1355,19 +1355,19 @@ outline: none!important;
 #candy ul.items, li input:focus {
 	outline: none; 
 }
-/*------------------------------ Toys Page ------------------------------*/
-#toys {
+/*------------------------------ love_is Page ------------------------------*/
+#love_is {
 	background: url(../images/border-dashed.jpg) repeat-x left bottom;
 	padding: 0 0 20px;
 	position: relative;
 }
-#toys ul.items {
+#love_is ul.items {
 	display: inline-block;
 	list-style-type: none;
 	margin: 0 auto 16px;
 	padding: 0;
 }
-#toys ul.items li {
+#love_is ul.items li {
 	float: left;
 	color: #8f6f05;
 	height: 340px;
@@ -1376,7 +1376,7 @@ outline: none!important;
 	margin-right: 28px;
 	font-size: 18px;
 }
-#toys ul.items li span {
+#love_is ul.items li span {
 	background: #ffffff url(../images/bottom-shadow-img.jpg) no-repeat center bottom;
 	display: block;
 	height: 253px;
@@ -1384,10 +1384,10 @@ outline: none!important;
 	margin-bottom: 10px;
 	padding: 6px 6px 14px;
 }
-#toys ul.items li span img {
+#love_is ul.items li span img {
 	border: 1px solid #e4e0d1;
 }
-#toys ul.items li span.price {
+#love_is ul.items li span.price {
 	float: right;
 	background: none;
 	color: #940000;
@@ -1400,7 +1400,7 @@ outline: none!important;
 	padding: 0;
 	text-align: right;
 }
-#toys ul.items li a.buy {
+#love_is ul.items li a.buy {
 	float: left;
 	background-color: #fff36b;
 	color: #8f6f05;
@@ -1416,11 +1416,11 @@ outline: none!important;
 	text-align: center;
 	text-decoration: none;
 }
-#toys ul.items li.last {
+#love_is ul.items li.last {
 	margin-right: 0;
 }
 
-#toys ul.items li a.buy2 {
+#love_is ul.items li a.buy2 {
 	float: right;
 	background-color: #fff36b;
 	color: #8f6f05;
@@ -1438,7 +1438,7 @@ outline: none!important;
 }
 
 
-#toys a.cart-buy-button{
+#love_is a.cart-buy-button{
 	float: right;
 	background-color: #fff36b;
 	color: #8f6f05;
@@ -1457,7 +1457,7 @@ outline: none!important;
 	text-decoration: none;
 }
 
-#toys a.cart-buy-button:hover {
+#love_is a.cart-buy-button:hover {
 	float: right;
 	background-color: #D2AA2E;
 	color: #755a0b;
@@ -1476,7 +1476,7 @@ outline: none!important;
 	text-decoration: none;
 }
 
-#toys a.cart-buy-button1{
+#love_is a.cart-buy-button1{
 	float: right;
 	background-color: #a4a4a4;
 	color: #4a4a4a;
@@ -1495,7 +1495,7 @@ outline: none!important;
 	text-decoration: none;
 }
 
-#toys a.cart-buy-button1:hover {
+#love_is a.cart-buy-button1:hover {
 	float: right;
 	background-color: #808080;
 	color: #333333;
@@ -1514,15 +1514,15 @@ outline: none!important;
 	text-decoration: none;
 }
 
-#toys ul.items li.last {
+#love_is ul.items li.last {
 	margin-right: 0;
 }
 
-#toys p {
+#love_is p {
 	color: #755a0b;
 }
 
-#toys ul.items, li input:focus {
+#love_is ul.items, li input:focus {
 	outline: none; 
 }
 
