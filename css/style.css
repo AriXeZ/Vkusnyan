@@ -38,6 +38,79 @@ img {
 	background: url(../images/icons.gif) no-repeat;
 }
 
+span.hits {
+	position: fixed;
+	top: 100px;
+	left: 30px;
+	font-family: 'Minecraft Rus Regular';
+	color: #940000;
+    text-shadow: 1px 1px 0 #a8840b;
+    font-size: 22px;
+    font-weight: bold;
+}
+span.is_90-x {
+	position: fixed;
+	top: 300px;
+	left: 30px;
+	font-family: 'Minecraft Rus Regular';
+	color: #940000;
+    text-shadow: 1px 1px 0 #a8840b;
+    font-size: 22px;
+    font-weight: bold;
+}
+span.candy {
+	position: fixed;
+	top: 400px;
+	left: 30px;
+	font-family: 'Minecraft Rus Regular';
+	color: #940000;
+    text-shadow: 1px 1px 0 #a8840b;
+    font-size: 22px;
+    font-weight: bold;
+}
+span.love_is {
+	position: fixed;
+	top: 500px;
+	left: 30px;
+	font-family: 'Minecraft Rus Regular';
+	color: #940000;
+    text-shadow: 1px 1px 0 #a8840b;
+    font-size: 22px;
+    font-weight: bold;
+}
+span.gifts {
+	position: fixed;
+	top: 600px;
+	left: 30px;
+	font-family: 'Minecraft Rus Regular';
+	color: #940000;
+    text-shadow: 1px 1px 0 #a8840b;
+    font-size: 22px;
+    font-weight: bold;
+}
+ul.hits  {
+	position: fixed;
+	top: 110px;
+	left: 10px;
+	font-family: 'Minecraft Rus Regular';
+	color: #9d7912;
+    text-shadow: 1px 1px 0 #a8840b;
+    font-size: 16px;
+    font-weight: bold;
+}
+li.li {
+	margin: 7px;
+	list-style-type: none;
+}
+li a.hits{
+	text-decoration: none;
+	color: #8e7217;
+
+}
+li a.hits:hover {
+	color: #940000;
+}
+
 
 .cart-button {
     border-style: solid;
@@ -351,9 +424,8 @@ outline: none!important;
 #main address {
 	color: #755a0b;
 	font-style: normal;
-	width: 450px;
+	width: 650px;
 	margin: 0 auto;
-	text-align: center;
 }
 #main address span {
 	color: #9d7912;
@@ -362,8 +434,9 @@ outline: none!important;
 	font-size: 18px;
 	line-height: 20px;
 	margin: 20px 0;
-	width: 450px;
+	width: 650px;
 	font-weight: bold;
+	text-align: center;
 }
 
 #adbox {
@@ -664,6 +737,40 @@ outline: none!important;
 	box-shadow: inset 1px 2px 6px 0px #715703;
 	text-decoration: none;
 }
+#info div.info-buttons a.back2 {
+	float: right;
+	background-color: #D2AA2E;
+	margin-right: 0;
+	font-size: 17px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 20px;
+	width: 140px;
+	border-radius: 7px;
+	margin: 13px 10px 0px 0px;
+	padding: 4px 0 4px;
+	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #715703;
+	text-decoration: none;
+}
+
+#info div.info-buttons a.back2:hover {
+	float: right;
+	background-color: #fff36b;
+	color: #755a0b;
+	margin-right: 0;
+	font-size: 17px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 20px;
+	width: 140px;
+	border-radius: 7px;
+	margin: 13px 10px 0px 0px;
+	padding: 4px 0 4px;
+	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #715703;
+	text-decoration: none;
+}
 
 #info div.info-buttons2 {
 	width: 230px;
@@ -888,11 +995,6 @@ outline: none!important;
 	top: 6px; 
 	left: 6px;
 }
-#hits ul.items li span img.new2{
-	position: absolute;
-	top: 6px; 
-	left: 250px;
-}
 #hits ul.items li span img {
 	border: 1px solid #e4e0d1;
 }
@@ -1064,11 +1166,6 @@ outline: none!important;
 	position: absolute;
 	top: 6px; 
 	left: 6px;
-}
-#is_90-x ul.items li span img.new2{
-	position: absolute;
-	top: 6px; 
-	left: 250px;
 }
 #is_90-x ul.items li span img {
 	border: 1px solid #e4e0d1;
@@ -1245,11 +1342,6 @@ outline: none!important;
 	top: 6px; 
 	left: 6px;
 }
-#candy ul.items li span img.new2{
-	position: absolute;
-	top: 6px; 
-	left: 250px;
-}
 #candy ul.items li span img {
 	border: 1px solid #e4e0d1;
 }
@@ -1423,11 +1515,6 @@ outline: none!important;
 	position: absolute;
 	top: 6px; 
 	left: 6px;
-}
-#love_is ul.items li span img.new2{
-	position: absolute;
-	top: 6px; 
-	left: 250px;
 }
 #love_is ul.items li span img {
 	border: 1px solid #e4e0d1;
