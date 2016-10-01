@@ -1,1 +1,10 @@
 User-agent: Yandex # будет использована всеми роботами Яндекса
+
+Host: myhost.ru # используется
+
+User-agent: *
+Disallow: /cgi-bin
+
+User-agent: Yandex
+Disallow: /cgi-bin
+Host: www.myhost.ru # не используется
