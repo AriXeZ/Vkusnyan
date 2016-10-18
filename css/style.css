@@ -692,9 +692,50 @@ outline: none!important;
 #info span img {
 	border: 1px solid #e4e0d1;
 }
+#info span a.info0 {
+	color: #755a0b;
+	margin: 0 0 0 0px;
+	font-size: 19px;
+	font-weight: bold;
+	line-height: 40px;
+}
 #info span a.info {
 	color: #755a0b;
 	margin: 0 0 0 65px;
+	font-size: 22px;
+	font-weight: bold;
+}
+#info span a.info2 {
+	color: #635320;
+	margin: 0 0 0 0px;
+	font-size: 22px;
+	font-weight: bold;
+	text-decoration: line-through;
+}
+#info span a.info3 {
+	color: #940000;
+	margin: 0 0 0 0px;
+	font-size: 22px;
+	font-weight: bold;
+}
+#info a.info {
+	color: #755a0b;
+	margin: 0 0 0 65px;
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 50px;
+}
+#info a.info2 {
+	color: #635320;
+	margin: 0 0 0 0px;
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 50px;
+	text-decoration: line-through;
+}
+#info a.info3 {
+	color: #940000;
+	margin: 0 0 0 0px;
 	font-size: 22px;
 	font-weight: bold;
 	line-height: 50px;
@@ -1561,7 +1602,7 @@ outline: none!important;
 	display: block;
 	height: 253px;
 	width: 204px;
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 	padding: 6px 6px 14px;
 }
 #love_is ul.items li span img.new{
@@ -1573,6 +1614,20 @@ outline: none!important;
 	border: 1px solid #e4e0d1;
 }
 #love_is ul.items li span.price {
+	float: right;
+	background: none;
+	color: #635320;
+	display: inine-block;
+	font-size: 18px;
+	height: 20px;
+	line-height: 20px;
+	width: 60px;
+	margin-right: 10px;
+	padding: 0;
+	text-align: right;
+	text-decoration: line-through;
+}
+#love_is ul.items li span.price2 {
 	float: right;
 	background: none;
 	color: #940000;
