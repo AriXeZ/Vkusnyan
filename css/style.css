@@ -331,7 +331,7 @@ outline: none!important;
 #connect a {
 	display: inline-block;
 	height: 30px;
-	margin: 0 10px;
+	text-decoration: none;
 	padding: 0;
 	color: #755a0b
 }
