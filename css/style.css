@@ -34,7 +34,7 @@ img {
 	border: 0;
 }
 
-#network .google, #network .facebook, #network .twitter, #network .vimeo {
+#network .googleplus, #network .facebook, #network .twitter, #network .vkontakte {
 	background: url(../images/icons2.gif) no-repeat;
 }
 
@@ -378,21 +378,21 @@ outline: none!important;
 }
 
 
-#network .google {
-	background-position: 0 1px;
+#network .googleplus {
+	background-position: 0 -1px;
 	width: 27px;
 }
 #network .facebook {
-	background-position: 0 -37px;
+	background-position: 0 -39px;
 	width: 27px;
 }
 #network .twitter {
-	background-position: 0 -75px;
+	background-position: 0 -77px;
 	width: 37px;
 }
-#network .vimeo {
-	background-position: 0 -113px;
-	width: 36px;
+#network .vkontakte {
+	background-position: 0 -112px;
+	width: 37px;
 }
 
 #infos {
@@ -2250,7 +2250,7 @@ outline: none!important;
 	padding: 0;
 	color: #755a0b
 }
-#network .vkontakte {
+#network .googleplus {
 	background-position: 0 2px;
 	width: 27px;
 }
@@ -2266,7 +2266,7 @@ outline: none!important;
 	background-position: 0 -112px;
 	width: 32px;
 }
-#network .vimeo {
+#network .vkontakte {
 	background-position: 0 -150px;
 	width: 32px;
 }
