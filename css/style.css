@@ -2239,7 +2239,7 @@ outline: none!important;
 	float: left;
 	display: inline-block;
 	height: 15px;
-	width: 950px;
+	width: 790px;
 	margin: 0px 0 15px 10px;
 	color: #755a0b
 }
@@ -2248,27 +2248,23 @@ outline: none!important;
 	height: 30px;
 	text-decoration: none;
 	padding: 0;
-	color: #755a0b
+	color: #755a0b;
 }
 #network .googleplus {
-	background-position: 0 2px;
+	background-position: 0 -1px;
 	width: 27px;
 }
 #network .facebook {
-	background-position: 0 -36px;
-	width: 36px;
+	background-position: 0 -39px;
+	width: 27px;
 }
 #network .twitter {
-	background-position: 0 -74px;
-	width: 32px;
-}
-#network .youtube {
-	background-position: 0 -112px;
-	width: 32px;
+	background-position: 0 -77px;
+	width: 37px;
 }
 #network .vkontakte {
-	background-position: 0 -150px;
-	width: 32px;
+	background-position: 0 -112px;
+	width: 37px;
 }
 
 #infos {
