@@ -699,6 +699,18 @@ outline: none!important;
 	font-weight: bold;
 	line-height: 40px;
 }
+#info span a.infolove10 {
+	color: #755a0b;
+	margin: 0 0 0 47px;
+	font-size: 22px;
+	font-weight: bold;
+}
+#info span a.infolove25 {
+	color: #755a0b;
+	margin: 0 0 0 35px;
+	font-size: 22px;
+	font-weight: bold;
+}
 #info span a.info {
 	color: #755a0b;
 	margin: 0 0 0 65px;
