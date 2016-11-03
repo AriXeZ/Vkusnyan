@@ -161,7 +161,6 @@ li a.hits:hover {
 	line-height: 18px;
 	width: 140px;
 	border-radius: 13px;
-	margin: 13px auto 0;
 	padding: 1px 0 4px;
 	text-align: center;
 	box-shadow: inset 1px 2px 6px 0px #333333;
@@ -180,7 +179,6 @@ li a.hits:hover {
 	line-height: 18px;
 	width: 140px;
 	border-radius: 13px;
-	margin: 13px auto 0;
 	padding: 1px 0 4px;
 	text-align: center;
 	box-shadow: inset 1px 2px 6px 0px #333333;
@@ -360,12 +358,11 @@ outline: none!important;
 	color: #755a0b
 }
 #navigation li {
-	float: left;
-	
+	float: left;	
 	font-size: 22px;
 	font-weight: bold;
 	line-height: 66px;
-	width: 186px;
+	width: 156px;
 	text-align: center;
 }
 #navigation a {
@@ -376,7 +373,22 @@ outline: none!important;
 	color: #940000;
 	text-shadow: 1px 1px 0 #a8840b;
 }
-
+#navigation2 li {
+	float: left;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: 'Minecraft Rus Regular';
+	width: 186px;
+	text-align: center;
+}
+#navigation2 a {
+	color: #9d7912;
+	text-decoration: none;
+}
+#navigation2 a:hover, #navigation2 li.selected a {
+	color: #940000;
+	text-shadow: 1px 1px 0 #a8840b;
+}
 
 #network .googleplus {
 	background-position: 0 -1px;
@@ -434,7 +446,7 @@ outline: none!important;
 	font-size: 22px;
 	font-weight: bold;
 	line-height: 66px;
-	width: 186px;
+	width: 156px;
 	text-align: center;
 }
 #navigation a {
@@ -446,6 +458,28 @@ outline: none!important;
 	text-shadow: 1px 1px 0 #a8840b;
 }
 
+#navigation2 {
+	height: 40px;
+	list-style-type: none;
+	margin: 0;
+	padding: 8px 20px 12px 0;
+}
+#navigation2 li {
+	float: left;
+	font-family: 'Minecraft Rus Regular';
+	font-size: 22px;
+	font-weight: bold;
+	width: 186px;
+	text-align: center;
+}
+#navigation2 a {
+	color: #9d7912;
+	text-decoration: none;
+}
+#navigation2 a:hover, #navigation2 li.selected a {
+	color: #940000;
+	text-shadow: 1px 1px 0 #a8840b;
+}
 /*------------------------------ CONTENTS ------------------------------*/
 #contents {
 	margin: 0 0 40px;
@@ -940,7 +974,6 @@ outline: none!important;
 	line-height: 18px;
 	width: 140px;
 	border-radius: 13px;
-	margin: 13px auto 0;
 	padding: 1px 0 4px;
 	text-align: center;
 	box-shadow: inset 1px 2px 6px 0px #333333;
@@ -959,7 +992,6 @@ outline: none!important;
 	line-height: 18px;
 	width: 140px;
 	border-radius: 13px;
-	margin: 13px auto 0;
 	padding: 1px 0 4px;
 	text-align: center;
 	box-shadow: inset 1px 2px 6px 0px #333333;
@@ -977,7 +1009,6 @@ outline: none!important;
 	line-height: 20px;
 	width: 80px;
 	border-radius: 3px;
-	margin: 13px auto 0;
 	padding: 1px 0 4px;
 	text-align: center;
 	text-decoration: none;
@@ -1039,7 +1070,6 @@ outline: none!important;
 	line-height: 18px;
 	width: 140px;
 	border-radius: 13px;
-	margin: 13px auto 0;
 	padding: 1px 0 4px;
 	text-align: center;
 	box-shadow: inset 1px 2px 6px 0px #333333;
@@ -1058,7 +1088,6 @@ outline: none!important;
 	line-height: 18px;
 	width: 140px;
 	border-radius: 13px;
-	margin: 13px auto 0;
 	padding: 1px 0 4px;
 	text-align: center;
 	box-shadow: inset 1px 2px 6px 0px #333333;
@@ -2062,6 +2091,202 @@ outline: none!important;
 }
 
 #gifts ul.items, li input:focus {
+	outline: none; margin-top: 4px 
+}
+
+/*------------------------------ discounts Page ------------------------------*/
+#discounts {
+	background: url(../images/border-dashed.jpg) repeat-x left bottom;
+	padding: 0 0 20px;
+	position: relative;
+}
+#discounts ul.items {
+	display: inline-block;
+	list-style-type: none;
+	margin: 0 auto 16px;
+	padding: 0;
+}
+#discounts ul.items li {
+	float: left;
+	color: #8f6f05;
+	height: 340px;
+	width: 216px;
+	margin-bottom: 100px;
+	margin-right: 28px;
+	font-size: 18px;
+}
+#discounts ul.items li span {
+	background: #ffffff url(../images/bottom-shadow-img.jpg) no-repeat center bottom;
+	display: block;
+	height: 253px;
+	width: 204px;
+	padding: 6px 6px 14px;
+}
+#discounts ul.items li span img {
+	border: 1px solid #e4e0d1;
+}
+#discounts ul.items li span.price {
+	float: right;
+	background: none;
+	color: #940000;
+	display: inine-block;
+	font-size: 23px;
+	height: 20px;
+	line-height: 20px;
+	width: 60px;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+#discounts ul.items li span.price1 {
+	float: right;
+	background: none;
+	color: #635320;
+	display: inine-block;
+	font-size: 18px;
+	height: 20px;
+	line-height: 20px;
+	width: 60px;
+	margin-right: 10px;
+	padding: 0;
+	text-align: right;
+	text-decoration: line-through;
+}
+#discounts ul.items li span.price2 {
+	float: right;
+	background: none;
+	color: #940000;
+	display: inine-block;
+	font-size: 23px;
+	height: 20px;
+	line-height: 20px;
+	width: 60px;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+#discounts ul.items li a.buy {
+	float: left;
+	background-color: #fff36b;
+	color: #8f6f05;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 16px;
+	height: 20px;
+	line-height: 20px;
+	width: 80px;
+	border-radius: 3px;
+	margin: 13px auto 0;
+	padding: 1px 0 4px;
+	text-align: center;
+	text-decoration: none;
+}
+#discounts ul.items li.last {
+	margin-right: 0;
+}
+
+#discounts ul.items li a.buy2 {
+	float: right;
+	background-color: #fff36b;
+	color: #8f6f05;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 16px;
+	height: 20px;
+	line-height: 20px;
+	width: 80px;
+	border-radius: 3px;
+	margin: 13px auto 0;
+	padding: 1px 0 4px;
+	text-align: center;
+	text-decoration: none;
+}
+
+#discounts a.cart-buy-button{
+	float: right;
+	background-color: #fff36b;
+	color: #8f6f05;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 20px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 18px;
+	width: 140px;
+	border-radius: 13px;
+	margin: 13px auto 0;
+	padding: 1px 0 4px;
+	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #715703;
+	text-decoration: none;
+}
+
+#discounts a.cart-buy-button:hover {
+	float: right;
+	background-color: #D2AA2E;
+	color: #755a0b;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 20px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 18px;
+	width: 140px;
+	border-radius: 13px;
+	margin: 13px auto 0;
+	padding: 1px 0 4px;
+	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #715703;
+	text-decoration: none;
+}
+
+#discounts a.cart-buy-button_not{
+	float: right;
+	background-color: #a4a4a4;
+	color: #4a4a4a;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 20px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 18px;
+	width: 140px;
+	border-radius: 13px;
+	margin: 13px auto 0;
+	padding: 1px 0 4px;
+	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #333333;
+	text-decoration: none;
+}
+
+#discounts a.cart-buy-button_not:hover {
+	float: right;
+	background-color: #808080;
+	color: #333333;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 20px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 18px;
+	width: 140px;
+	border-radius: 13px;
+	margin: 13px auto 0;
+	padding: 1px 0 4px;
+	text-align: center;
+	box-shadow: inset 1px 2px 6px 0px #333333;
+	text-decoration: none;
+}
+
+#discounts ul.items li.last {
+	margin-right: 0;
+}
+
+#discounts p {
+	color: #755a0b;
+}
+
+#discounts ul.items, li input:focus {
 	outline: none; margin-top: 4px 
 }
 
