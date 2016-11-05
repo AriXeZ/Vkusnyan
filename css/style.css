@@ -1109,6 +1109,7 @@ outline: none!important;
 	padding: 0;
 }
 #hits ul.items li {
+	position: relative;
 	float: left;
 	color: #8f6f05;
 	height: 340px;
@@ -1307,6 +1308,7 @@ outline: none!important;
 	padding: 0;
 }
 #is_90-x ul.items li {
+	position: relative;
 	float: left;
 	color: #8f6f05;
 	height: 340px;
@@ -1508,6 +1510,7 @@ outline: none!important;
 	padding: 0;
 }
 #candy ul.items li {
+	position: relative;
 	float: left;
 	color: #8f6f05;
 	height: 340px;
@@ -1708,6 +1711,7 @@ outline: none!important;
 	padding: 0;
 }
 #love_is ul.items li {
+	position: relative;
 	float: left;
 	color: #8f6f05;
 	height: 340px;
@@ -1911,6 +1915,7 @@ outline: none!important;
 	padding: 0;
 }
 #gifts ul.items li {
+	position: relative;
 	float: left;
 	color: #8f6f05;
 	height: 340px;
@@ -2107,6 +2112,7 @@ outline: none!important;
 	padding: 0;
 }
 #discounts ul.items li {
+	position: relative;
 	float: left;
 	color: #8f6f05;
 	height: 340px;
