@@ -1931,6 +1931,11 @@ outline: none!important;
 	width: 204px;
 	padding: 6px 6px 14px;
 }
+#gifts ul.items li span img.new{
+	position: absolute;
+	top: 6px; 
+	left: 6px;
+}
 #gifts ul.items li span img {
 	border: 1px solid #e4e0d1;
 }
@@ -2127,6 +2132,11 @@ outline: none!important;
 	height: 253px;
 	width: 204px;
 	padding: 6px 6px 14px;
+}
+#discounts ul.items li span img.new{
+	position: absolute;
+	top: 6px; 
+	left: 6px;
 }
 #discounts ul.items li span img {
 	border: 1px solid #e4e0d1;
