@@ -2585,7 +2585,7 @@ outline: none!important;
     display: inline-block;
     font-weight: bold;
     height: 15px;
-    margin: 5px -10px 15px 0px;
+    margin: 5px 10px 15px 0px;
     padding: 0;
     color: #755a0b;
 }
@@ -2611,7 +2611,7 @@ outline: none!important;
 	color: #635320;
 	display: inline-block;
 	height: 30px;
-	margin: 0px 150px 0px 0px;
+	margin: 0px 170px 0px 0px;
 	text-align: right;
 }
 #infos  a {
